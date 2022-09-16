@@ -46,6 +46,21 @@ proxies:
     server: 124.15.12.24
     port: 2312
     udp: true
+  - type: socks5
+    name: jp
+    server: 124.15.12.24
+    port: 33333
+    udp: true
+  - type: socks5
+    name: Jp
+    server: 124.15.12.24
+    port: 11122
+    udp: true
+  - type: socks5
+    name: JP
+    server: 124.15.12.24
+    port: 11111
+    udp: true
 #   - type: hysteria
 #     name: Hys-1.2.3.4
 #     server: 1.2.3.4
@@ -80,5 +95,8 @@ proxy-groups:
       - http_proxy-泰国
       - socks5_proxy-德国
       - telegram_proxy-澳大利亚
+      - JP
+      - jp
+      - Jp
 rules:
   - DOMAIN-SUFFIX,xxx.xxx,ewq
